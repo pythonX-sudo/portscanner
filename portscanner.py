@@ -13,7 +13,7 @@ Created by PythonX ~ ShahadathAkash
 def scan(target):
     converted_ip = check_ip(target)
     print('\n' + '[0] Scanning Target... ' + str(target))
-    for port in range(1, 20):
+    for port in range(1, 500):
         scan_port(converted_ip, port)
 
 
