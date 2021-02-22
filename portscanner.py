@@ -13,7 +13,7 @@ Created by PythonX ~ ShahadathAkash
 def scan(target):
     converted_ip = check_ip(target)
     print('\n' + '[0] Scanning Target... ' + str(target))
-    for port in range(1, 500):
+    for port in (21, 22, 23, 25, 53, 80, 110, 111, 135, 139, 143, 443, 445, 993, 995, 1234, 1723, 3306, 3389, 4444, 5900, 8080):
         scan_port(converted_ip, port)
 
 
