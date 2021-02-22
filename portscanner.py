@@ -30,7 +30,7 @@ def get_banner(s):
 def scan_port(ip_add, port):
     try:
         sock = socket.socket()
-        sock.settimeout(0.5)
+        sock.settimeout(1)
         sock.connect((ip_add, port))
         try:
             banner = get_banner(sock)
