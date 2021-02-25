@@ -8,19 +8,28 @@ requirements:
 
 how to run:
 
-Linux: 
+Linux:
+
 Terminal
+
 1.pip install IPy.
+
 2.python3 portscanner.py
 
 Windows:
+
 cmd
+
 1.pip install IPy
+
 2.portscanner.py
 
 Termux:
+
 Terminal
+
 1.pip install IPy
+
 2.python portscanner.py
 
 THANK YOU
