@@ -12,7 +12,7 @@ Linux:
 
 Terminal
 
-1.pip install IPy.
+1.pip install IPy
 
 2.python3 portscanner.py
 
